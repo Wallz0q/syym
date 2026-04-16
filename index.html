@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anime VVIP</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="manifest" href="manifest.json">
+
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+</head>
+
+<body>
+
+<h1> Anime Wallz</h1>
+
+<input type="text" id="search" placeholder="Cari anime...">
+<button onclick="searchAnime()">Cari</button>
+
+<div id="animeList"></div>
+
+<!-- PLAYER -->
+<div id="playerBox" class="hidden">
+  <video id="video" controls autoplay></video>
+  </div>
+
+  <script type="module" src="assets/js/app.js"></script>
+
+  </body>
+  </html>
